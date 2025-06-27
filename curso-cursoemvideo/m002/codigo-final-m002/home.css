@@ -1,34 +1,11 @@
 @charset "UTF-8";
 
-:root {
-    --cor1: rgb(224, 36, 0);
-    --cor2: rgb(224, 0, 11);
-    --cor3: rgb(224, 0, 147);
-    --cor4: rgb(194, 0, 224);
-    --cor5: rgb(119, 0, 224);
-    --cor6: rgb(37, 58, 78);
-    --cor1-clara: rgb(219, 79, 52);
-    --cor2-clara: rgb(219, 43, 63);
-    --cor3-clara: rgb(219, 43, 199);
-    --cor4-clara: rgb(189, 43, 250);
-    --cor5-clara: rgb(114, 43, 250);
-    --cor6-clara: rgb(32, 101, 130);
-
-    --medal-first: "\1F947\00A0\00A0";
-    --medal-second: "\1F948\00A0\00A0";
-    --medal-third: "\1F949\00A0\00A0";
-
-    --fonte-principal: Arial, Helvetica, sans-serif;
-    --fonte-titulo: 'Lexend Zetta', cursive;
-    --fonte-destaque: 'Roboto', sans-serif;
-}
-
 article > a > section > p::after {
     content: " [...]";
     font-weight: bolder;
 }
 article {
-    background-color: var(--cor2-clara);
+    background-color: var(--cor2);
     padding: 10px;
     margin-bottom: 10px;
     border-style: solid;
@@ -38,14 +15,14 @@ article#the-bests {
     margin-bottom: 0px;
 }
 section {
-    background-color: var(--cor1-clara);
+    background-color: var(--cor1);
     padding: 5px;
     margin-bottom: 10px;
     border-style: solid;
-    border-color: var(--cor6-clara);
+    border-color: var(--cor6);
     border-width: 0.1px;
 }
 section:hover {
-    border-color: var(--cor5-clara);
+    border-color: var(--cor5-);
     border-width: 2px;
 }

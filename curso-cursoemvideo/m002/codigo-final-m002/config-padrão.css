@@ -4,12 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cor1: rgb(224, 36, 0);
-    --cor2: rgb(224, 0, 11);
-    --cor3: rgb(224, 0, 147);
-    --cor4: rgb(194, 0, 224);
-    --cor5: rgb(119, 0, 224);
-    --cor6: rgb(37, 58, 78);
+    --cor1: rgb(110, 29, 10);
+    --cor2: rgb(107, 78, 82);
+    --cor3: rgb(88, 61, 42);
+    --cor4: rgb(62, 60, 38);
+    --cor5: rgb(91, 109, 123);
+    --cor6: rgb(58, 75, 85);
     --cor1-clara: rgb(219, 79, 52);
     --cor2-clara: rgb(219, 43, 63);
     --cor3-clara: rgb(219, 43, 199);
