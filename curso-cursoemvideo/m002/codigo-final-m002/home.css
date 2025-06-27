@@ -28,7 +28,7 @@ article > a > section > p::after {
     font-weight: bolder;
 }
 article {
-    background-color: var(--cor2);
+    background-color: var(--cor2-clara);
     padding: 10px;
     margin-bottom: 10px;
     border-style: solid;
