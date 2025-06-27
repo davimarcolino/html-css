@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor1: rgb(224, 36, 0);
+    --cor2: rgb(224, 0, 11);
+    --cor3: rgb(224, 0, 147);
+    --cor4: rgb(194, 0, 224);
+    --cor5: rgb(119, 0, 224);
+    --cor6: rgb(37, 58, 78);
+    --cor1-clara: rgb(219, 79, 52);
+    --cor2-clara: rgb(219, 43, 63);
+    --cor3-clara: rgb(219, 43, 199);
+    --cor4-clara: rgb(189, 43, 250);
+    --cor5-clara: rgb(114, 43, 250);
+    --cor6-clara: rgb(32, 101, 130);
+
+    --medal-first: "\1F947\00A0\00A0";
+    --medal-second: "\1F948\00A0\00A0";
+    --medal-third: "\1F949\00A0\00A0";
+
+    --fonte-principal: Arial, Helvetica, sans-serif;
+    --fonte-titulo: 'Lexend Zetta', cursive;
+    --fonte-destaque: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #253a4e;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+h1, h2, h3, h4, h5, h6, p, a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+a {
+    text-decoration: none;
+}
+header {
+    /*position: fixed;*/
+    background-image: linear-gradient(to top, var(--cor1), var(--cor2), var(--cor3));
+    text-align: center;
+    height: 130px;
+}
+header > h1 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor5);
+    max-width: 400px;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header p {
+    font-family: var(--fonte-destaque);
+    font-weight: 200;
+    color: var(--cor5);
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav {
+    padding: 5px;
+    background-color: var(--cor1);
+    border-width: 0.1px 0px 0.1px 0px;
+    border-style: solid;
+    border-color: var(--cor5);
+}
+nav a {
+    padding: 3px 5px 3px 5px;
+    font-weight: bold;
+    color: var(--cor5);
+    margin-right: 5px;
+    border-radius: 5px;
+}
+nav a:hover {
+    transition: 0.2s;
+    background-color: var(--cor5);
+    color: var(--cor1);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+nav a:active {
+    background-color: var(--cor2);
+}
+main {
+    background-color: var(--cor3);
+    padding: 10px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 950px;
+}
+main h1 {
+    margin-top: 0px;
+    color: var(--cor4);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+main h2 {
+    color: var(--cor5);
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+main h3 {
+    color: var(--cor6);
+    font-size: 1.4em;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+main p {
+    font-weight: lighter;
+    color: wheat;
+    line-height: 1.5em;
+}
+section p {
+    text-align: justify;
+    text-indent: 15px;
+}
+footer {
+    padding: 5px 0px;
+    background-image: linear-gradient(to left, var(--cor1), var(--cor2));
+    background-color: var(--cor1);
+    text-align: center;
+    color: white;
+}
+footer p {
+    margin: 0px;
+}
+strong {
+    color: var(--cor5);
+}
