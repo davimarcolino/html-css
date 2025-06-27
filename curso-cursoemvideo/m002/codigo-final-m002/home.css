@@ -38,14 +38,14 @@ article#the-bests {
     margin-bottom: 0px;
 }
 section {
-    background-color: var(--cor1);
+    background-color: var(--cor1-clara);
     padding: 5px;
     margin-bottom: 10px;
     border-style: solid;
-    border-color: var(--cor6);
+    border-color: var(--cor6-clara);
     border-width: 0.1px;
 }
 section:hover {
-    border-color: var(--cor5);
+    border-color: var(--cor5-clara);
     border-width: 2px;
 }
