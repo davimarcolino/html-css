@@ -23,6 +23,6 @@ section {
     border-width: 0.1px;
 }
 section:hover {
-    border-color: var(--cor5-);
+    border-color: var(--cor5);
     border-width: 2px;
 }
