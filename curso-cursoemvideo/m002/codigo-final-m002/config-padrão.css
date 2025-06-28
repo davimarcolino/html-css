@@ -47,7 +47,7 @@ a {
 }
 header {
     /*position: fixed;*/
-    background-image: linear-gradient(to top, var(--cor1), var(--cor2), var(--cor3));
+    background-image: linear-gradient(to top, var(--cor1), var(--cor3), var(--cor5));
     text-align: center;
     height: 130px;
 }
@@ -65,6 +65,7 @@ header p {
     font-weight: 200;
     color: var(--cor5);
     max-width: 420px;
+    padding-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -100,11 +101,11 @@ main {
 }
 main h1 {
     margin-top: 0px;
-    color: var(--cor3);
+    color: var(--cor4);
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
 }
 main h2 {
-    color: var(--cor4);
+    color: var(--cor3);
     font-size: 1.5em;
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
 }
