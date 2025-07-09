@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundo fixo na tela</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
@@ -17,9 +17,10 @@
             */
             
             /* Shorthand - Background
-            color > image > position > repeat > size > attachment
+            color > image > position > repeat > [size] > attachment
             */
-            background: black url(images/wallpaper002.jpg) center center no-repeat cover fixed;
+            background: black url('images/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
         main {
             background-color: white;
