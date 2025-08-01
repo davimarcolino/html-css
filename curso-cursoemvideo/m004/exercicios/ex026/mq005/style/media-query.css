@@ -2,14 +2,20 @@
 
 /* Demais Dispositivos */
 
-@media screen and (min-width: 768px) and (max-width: 992px) { /* TABLET */
-    
-}
+@media screen and (min-width: 768px) {
+    i#burger {
+        display: none;
+    }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) { /* DESKTOP */
-    
-}
+    menu {
+        display: block;
+    }
 
-@media screen and (min-width: 1200px) { /* TELAS GRANDES */
-    
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 740px;
+    }
 }
